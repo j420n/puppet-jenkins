@@ -15,8 +15,7 @@ class jenkins::repo::debian
       release     => 'binary/',
       repos       => '',
       key         => '150FDE3F7787E7D11EF4E12A9B7D32F2D50582E6',
-      key_source  => 'http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key',
-      include_src => false,
+      #key_source  => 'http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key',
     }
   }
   else {
@@ -25,8 +24,7 @@ class jenkins::repo::debian
       release     => 'binary/',
       repos       => '',
       key         => '150FDE3F7787E7D11EF4E12A9B7D32F2D50582E6',
-      key_source  => 'http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key',
-      include_src => false,
+      #key_source  => 'http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key',
     }
   }
 
